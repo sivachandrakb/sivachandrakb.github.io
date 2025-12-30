@@ -6,14 +6,37 @@
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   background: #ffffff;
   color: #1a1a1a;
   line-height: 1.6;
   max-width: 1000px;
   margin: auto;
   padding: 20px;
+} */
+
+body {
+  background: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+  margin: 0;
 }
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.navbar {
+  width: 100%;
+  background: #0f0f12;
+}
+
+.hero {
+  width: 100%;
+  background: #0f0f12;
+}
+
 
 .navbar {
   display: flex;
