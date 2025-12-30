@@ -201,3 +201,48 @@ footer {
   color: #555;
   line-height: 1.6;
 } */
+
+/* ===== BLACK HEADER ===== */
+
+.hero {
+  background: #0f0f12;        /* royal black */
+  color: #ffffff;
+  padding: 50px 20px 60px;
+  border-radius: 16px;
+  margin-bottom: 60px;
+}
+
+.hero h1 {
+  color: #ffffff;
+}
+
+.tagline {
+  color: #b5b5b5;
+}
+
+.profile-img {
+  border: 3px solid #26262e;
+}
+
+.social-bar a {
+  background: #16161d;
+  color: #eaeaea;
+  border: 1px solid #26262e;
+}
+.navbar {
+  background: #0f0f12;
+  border-bottom: 1px solid #26262e;
+  padding: 18px 0;
+}
+
+.nav-brand {
+  color: #ffffff;
+}
+
+.nav-links a {
+  color: #b5b5b5;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
