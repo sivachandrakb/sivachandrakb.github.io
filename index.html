@@ -3,80 +3,111 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Sivachandra | Data Science Portfolio</title>
+<title>Sivachandra K B | Data Science Portfolio</title>
 <link rel="stylesheet" href="style.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
+<nav class="navbar">
+  <div class="nav-brand">Sivachandra</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <img src="profile.jpg" alt="Profile Photo" class="profile-img"/>
   <h1>Sivachandra K B</h1>
-  <p>M.Tech Data Science | AI/ML • Computer Vision • NLP • Speech DL • MRI/Radiomics</p>
+  <p class="tagline">M.Tech Data Science | AI/ML • CV • NLP • Speech DL • MRI/Radiomics</p>
+  <div class="social-bar">
+    <a href="https://github.com/sivachandrakb" target="_blank">GitHub</a>
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+  </div>
 </header>
 
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    Data Science researcher and engineer focused on building AI systems in medical imaging, speech, and natural language processing.  
+    My work includes CNN-based MRI stratification, radiomics biomarker discovery, uncertainty-aware text classification, and deep learning pipelines for speech-based mental health detection.
+  </p>
+</section>
+
 <section id="skills">
-  <h2>Skills</h2>
-  <div class="skills-container">
-    <span>Python</span>
-    <span>MySQL</span>
-    <span>Oracle 19c SQL</span>
-    <span>TensorFlow</span>
-    <span>PyTorch</span>
-    <span>NLTK</span>
-    <span>Word Embeddings</span>
-    <span>OOPs</span>
-    <span>DSA</span>
-    <span>DBMS</span>
+  <h2>Technical Skills</h2>
+  <div class="skills-grid">
+    <div class="skill">Python</div>
+    <div class="skill">TensorFlow</div>
+    <div class="skill">PyTorch</div>
+    <div class="skill">NLTK</div>
+    <div class="skill">Word Embeddings</div>
+    <div class="skill">MySQL</div>
+    <div class="skill">Oracle 19c SQL</div>
+    <div class="skill">DSA</div>
+    <div class="skill">OOPs</div>
+    <div class="skill">DBMS</div>
   </div>
 </section>
 
 <section id="projects">
-  <h2>Projects</h2>
+  <h2>Key Projects</h2>
+  <div class="project-container">
 
-  <div class="project-card">
-    <h3>Deep Learning-Driven MRI Stratification for Tumor Subtype</h3>
-    <p>CNN-based classification for intracranial tumor subtype using MRI.</p>
+    <div class="project-card">
+      <h3>MRI Tumor Subtype Stratification</h3>
+      <p>CNN-based MRI classification framework for intracranial tumor subtype detection.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Radiomics Biomarker Discovery</h3>
+      <p>Radiomic feature extraction from segmented MRI/fMRI correlated with clinical & genomic data.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Speech Depression Detection</h3>
+      <p>Deep learning speech pipeline using RAVDESS for mental health classification.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Parkinson Multi-Modal Fusion Network</h3>
+      <p>Attention-based fusion of MRI scans + clinical metadata for PD classification.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Uncertainty-Aware Text Classification</h3>
+      <p>Epistemic uncertainty modeling using entropy & KL-weighted ML ensembles.</p>
+    </div>
+
   </div>
-
-  <div class="project-card">
-    <h3>Radiomics Biomarker Discovery</h3>
-    <p>Feature extraction from pre-segmented MRI/fMRI with clinical & genomic correlation.</p>
-  </div>
-
-  <div class="project-card">
-    <h3>Depression Detection from Speech (RAVDESS)</h3>
-    <p>Emotion-driven speech deep learning pipeline for depression classification.</p>
-  </div>
-
-  <div class="project-card">
-    <h3>Parkinson’s Multi-Modal Fusion Network</h3>
-    <p>Fusion of MRI + clinical metadata using attention-based architecture.</p>
-  </div>
-
-  <div class="project-card">
-    <h3>Uncertainty-Aware Text Classification</h3>
-    <p>Epistemic uncertainty modeling using entropy/KL-weighted ML ensembles.</p>
-  </div>
-
 </section>
 
 <section id="publications">
-  <h2>Publications</h2>
-  <ul>
-    <li>Impact of Fine-Tuned Embeddings on ML-Based Causal Detection (IEEE CONIT 2025)</li>
-    <li>MRI Stratification for Intracranial Tumor Subtype (Springer Nature 2025)</li>
-    <li>Urine Biomarker Profiling for Urolithiasis Risk (CODE-AI 2024, CRC Press 2025)</li>
-    <li>Clinical Decision Support for CKD Detection (IEEE ICOECA 2024)</li>
+  <h2>Research Publications</h2>
+  <ul class="pub-list">
+    <li>Impact of Fine-Tuned Embeddings on ML-Based Causal Detection — IEEE CONIT 2025</li>
+    <li>Deep Learning-Driven MRI Stratification for Tumor Subtype — Springer Nature 2025</li>
+    <li>Urine Biomarker Profiling for Urolithiasis Risk Prediction — CODE-AI 2024, CRC Press 2025</li>
+    <li>Clinical Decision Support Systems for CKD Detection — IEEE ICOECA 2024</li>
   </ul>
 </section>
 
 <section id="contact">
   <h2>Contact</h2>
-  <p>
-    <a href="mailto:kbsivachandra@gmail.com">Email</a> •
-    <a href="tel:7736842267">Phone</a> •
-    <a href="https://github.com/sivachandrakb">GitHub</a>
-  </p>
+  <div class="contact-card">
+    <p>📧 <a href="mailto:kbsivachandra@gmail.com">kbsivachandra@gmail.com</a></p>
+    <p>📱 <a href="tel:7736842267">7736842267</a></p>
+    <p>📍 Thrissur, India</p>
+  </div>
 </section>
+
+<footer>
+  <p>© 2025 | Built by Sivachandra K B</p>
+</footer>
 
 </body>
 </html>
